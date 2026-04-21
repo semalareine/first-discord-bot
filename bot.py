@@ -35,7 +35,7 @@ async def on_member_join(member):
     avatar.putalpha(mask)
 
     # --- Paste avatar ---
-    background.paste(avatar, (50, 75), avatar)
+    background.paste(avatar, (43, 75), avatar)
 
     # --- Draw text ---
     draw = ImageDraw.Draw(background)
