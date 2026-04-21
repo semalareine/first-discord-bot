@@ -17,4 +17,4 @@ async def on_member_join(member):
     if channel:
         await channel.send(f"Fakka {member.mention}!")
 
-bot.run(os.getenv("DISCORd_TOKEN"))
+bot.run(os.getenv("DISCORD_TOKEN"))
